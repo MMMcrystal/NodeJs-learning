@@ -20,6 +20,6 @@ _http.createServer(function(request,response){
 
     //向客户端发送数据
 response.end('<h1>第一个http服务</h1>');
-}).listen(5239);//端口号
+}).listen(5249);//端口号
 
-console.log('5239端口已创建');
+console.log('5249端口已创建');
